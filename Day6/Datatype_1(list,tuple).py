@@ -97,6 +97,7 @@ print(squares)  # Output: [1, 4, 9, 16, 25]
 
 # c) tuple : collections of items in a particular order
 # - ordered, indexed, immutable, allows duplicate elements
+
 t = (1,2,3,4,5,4,6)
 ts = ("Avi", "Bivi", "Civi", "Divi")
 tc = (1, "Avi", 2.5, True, 3+4j)

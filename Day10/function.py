@@ -156,11 +156,35 @@ def nameAge(name, age):
     print("Hi, I am", name)
     print("My age is ", age)
 
-print("Case-1:")
-nameAge("Suraj", 27)
+# print("Case-1:")
+# nameAge("Suraj", 27)
 
-print("Case - 2")
-nameAge(27, "Suraj")
+# print("Case - 2")
+# nameAge(27, "Suraj")
+
+
+"""
+#scope of variable 
+1) Local Scope - it is accessable in particular section of your code
+
+2) Global scope - you will be able to access them globaly 
+"""
+
+
+num1 = 10  # you can access this variable globally
+
+def scope_of_variable():
+    num2 = 20 # this is your local variable 
+    print("inside the function")
+    print("I am able to access num1 : ", num1)
+    print("I am able to access num2 : ", num2)
+    print("function end --------- \n")
+
+scope_of_variable()
+
+print("outside the function")
+print("I am able to access num1 : ", num1)
+# print("I am able to access num2 : ", num2) # NameError: name 'num2' is not defined
 
 
 

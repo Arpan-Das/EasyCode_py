@@ -28,7 +28,9 @@ e.g.
 
 
 '''
-# 2. Logical Error : A logical error means the program runs successfully, but the output is wrong because the logic or formula used is incorrect.
+# 2. Logical Error : A logical error means the program runs
+# successfully, but the output is wrong because the logic or 
+# formula used is incorrect.
 '''
 
 

@@ -1,0 +1,5 @@
+'''
+2. WRITE A function to compute the sum of the first n terms of the following series, 
+S = 1 - 2 + 3 - 4 + 5 - 6 …………… n
+
+'''

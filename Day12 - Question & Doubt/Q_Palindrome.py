@@ -9,6 +9,34 @@
 
 '''
 
-str = "abcba"
+# str = "abcdef"
+str = "acdgbgcca"
+
+def check_palindrom(str):
+    length = len(str)
+    for i in range(0, length // 2):
+        # print("start", str[i])
+
+        # print("end i = ", i, " and ch =", str[ - (i + 1)])
+        print("Comparing ", str[i], " with ", str[-(i + 1)])
+        if str[i] != str[ - (i + 1)]:
+            return False
+    
+    return True 
+
+status = check_palindrom(str)
+print(status)
+if status == True:
+    print("Given string:", str, " is a palindrom.")
+else:
+    print("Given string:", str, " is not a palindrom.")
+
+
+"""
+
+
+"""
+
+
 
 

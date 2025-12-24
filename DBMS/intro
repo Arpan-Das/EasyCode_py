@@ -1,0 +1,89 @@
+- What is Data?
+Data are raw facts that have no meaning by themselves.
+e.g. 100, Ravi, etc
+
+CHAPTER 1: INTRODUCTION TO DBMS
+
+- Database
+
+A database is an organized collection of related data stored electronically so that it can be easily accessed, managed, and updated.
+
+e.g. 
+Strudent database, Employes Database .... 
+
+
+- Database Management System (DBMS)
+
+A DBMS is software that provides an interface between users and the database for storing, retrieving, updating, and managing data efficiently.
+
+e.g. MySQL, Oracle, SQL Server 
+
+- What is a Legacy System?
+
+A file-based system where each application maintains its own data files.
+
+student.txt
+-- student ID
+-- Student Name
+-- roll no.
+-- class
+
+marks.txt
+-- student id
+-- student name
+-- roll no.
+-- marks
+
+fees.txt
+-- student id
+-- student name
+-- roll no. 
+-- fees paid 
+
+Problem : Each department keeps separate files.
+
+Drawbacks
+---------
+1. Data Redundancy - Same data stored multiple times. 
+---- Wastes Memory
+---- Updating becomes difficult
+
+2. Data Inconsistency - Same data has different values 
+student file - studnet name - Ravee
+marks file - studnet name - Rave
+fees file - studnet name - Ravi
+
+3. Data Isolation - Data scatteres across files and formats.
+
+4. Difficult Data Access
+e.g. list of students with marks > 80 and attendance > 75%
+
+5. Integrity Problem - No rules for valid data.
+e.g. age == -5 
+
+6. Security Problems - no access control 
+
+7. Concurency Problems - 
+8. No Backup & Recovery
+
+
+ADVANTAGES OF DBMS
+------------------
+
+1. Reduced Redundancy
+---- Data stored once
+---- Shared across applications
+
+2. Data Consistency
+Update once → reflected everywhere
+
+
+3. Data Security
+
+Login-based access
+Role-based permissions
+
+
+4. Data Integrity
+Rules ensure correct data.
+e.g. age > 0 
